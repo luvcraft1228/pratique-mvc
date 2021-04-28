@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{83D144BF-B105-443B-A08F-37E7D7FFF266}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LOTRMaps", "ConsoleApp1\LOTRMaps.csproj", "{83D144BF-B105-443B-A08F-37E7D7FFF266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph Library", "Graph Library\Graph Library.csproj", "{B41C6447-AAA3-4182-93F0-67259A3B9D53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{83D144BF-B105-443B-A08F-37E7D7FFF266}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83D144BF-B105-443B-A08F-37E7D7FFF266}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83D144BF-B105-443B-A08F-37E7D7FFF266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41C6447-AAA3-4182-93F0-67259A3B9D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41C6447-AAA3-4182-93F0-67259A3B9D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41C6447-AAA3-4182-93F0-67259A3B9D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41C6447-AAA3-4182-93F0-67259A3B9D53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
