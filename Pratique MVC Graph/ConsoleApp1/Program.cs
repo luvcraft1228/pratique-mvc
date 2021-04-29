@@ -1,12 +1,18 @@
 ﻿using System;
-
-namespace ConsoleApp1
+using System.Collections.Generic;
+namespace LOTRMaps
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
+            DbContext.Instance.Paths.Database.Test();
+            List<Models.Path> Paths = DbContext.Instance.Paths.Get();
+            foreach (var item in Paths)
+            {
+                Console.WriteLine(item.From.Short);
+            }
         }
     }
 }

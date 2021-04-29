@@ -4,7 +4,11 @@ using System.Text;
 
 namespace LOTRMaps.Controllers
 {
-    class LocationController : Controller<Location>
+    public class LocationController : Controller<Models.Location>
     {
+        public List<Models.Location> Get()
+        {
+            return base.Get("select * from Location");
+        }
     }
 }
