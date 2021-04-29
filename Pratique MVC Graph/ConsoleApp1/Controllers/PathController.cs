@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ConsoleApp1.Controllers
+namespace LOTRMaps.Controllers
 {
-    class PathController
+    public class PathController : Controller<>
     {
     }
 }

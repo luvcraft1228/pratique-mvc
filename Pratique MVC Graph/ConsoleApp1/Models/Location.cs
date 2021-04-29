@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LOTRMaps.Controllers
+namespace LOTRMaps.Models
 {
-    class LocationController
+    class Location
     {
     }
 }
