@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LOTRMaps.Controllers
 {
-    class LocationController
+    class LocationController : Controller<Location>
     {
     }
 }
